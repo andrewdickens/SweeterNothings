@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
@@ -14,4 +15,5 @@
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
   }
+
 }
